@@ -10,14 +10,19 @@ for i in range(5):
     lista.append(n)
     
     
-def unicos(lista):
+# def unicos(lista):
     
-    nova_lista = []
+#     nova_lista = []
     
-    for item in lista:
-        if item not in nova_lista:
-            nova_lista.append(item)
+#     for item in lista:
+#         if item not in nova_lista:
+#             nova_lista.append(item)
    
-    return nova_lista
+#     return nova_lista
+
+# print(unicos(lista))
+
+def unicos(lista):
+    return list(set(lista))
 
 print(unicos(lista))
