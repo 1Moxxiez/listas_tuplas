@@ -6,7 +6,8 @@ from tkinter import messagebox
 
 lista = []
 
-def adiciona ():
+def adiciona (): # O Tkinter só chama a função que você indicou (sem argumentos), porque a função precisa estar pronta 
+                 #para ser chamada pelo sistema do Tkinter, que espera uma função sem parâmetros.
    item = entrada.get()
    
    if item:
