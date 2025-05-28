@@ -14,8 +14,10 @@ for i in range(5):
     n = int(input(f'Digite o {i} numero: '))
     lista.append(n)
 
+
 if ordenada (lista):
     print('Esta ordenada')
+        
 else:
    print('Não esta ordenada')
     

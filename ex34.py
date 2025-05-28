@@ -19,6 +19,7 @@ while True:
 
 if quantidade > 0:
     media = soma / quantidade
-    print(f"A média dos números digitados é: {media}")
+    print(f"A média é: {media}")
+    
 else:
     print("Nenhum número foi digitado.")

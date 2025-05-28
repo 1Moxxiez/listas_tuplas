@@ -1,4 +1,5 @@
 '''
+Fa¸ca a uni˜ao de duas listas sem usar o operador +.
 '''
 
 # Usando .extend():

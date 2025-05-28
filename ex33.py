@@ -10,6 +10,6 @@ multiplo_3 = [(num) for num in lista if num % 3 == 0]
 
 print(multiplo_3)
 
-#  tudo numa linha só, sem criar a lista antes:
+#  tudo numa linha sem criar a lista antes:
 multiplo_3 = [num for num in range(1, 101) if num % 3 == 0]
 print(multiplo_3)

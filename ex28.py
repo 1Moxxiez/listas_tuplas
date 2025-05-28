@@ -9,7 +9,7 @@ def soma (lista):
     soma = 0
 
     for item in lista:
-        if isinstance(item, (int, float)):
+        if isinstance(item, (int, float)): #ficar oq o objeto é isinstance(item, tipo) .
             soma += item
     
     return soma
